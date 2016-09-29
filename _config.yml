@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://seixasfelipe.github.io" # the base hostname & protocol for your site
 twitter_username: seixasfelipe
 github_username:  seixasfelipe
-# paginate:            5
+paginate:            1
 
 # Permalinks
 #
