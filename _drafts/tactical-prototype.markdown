@@ -12,7 +12,7 @@ Tactical - A HTML5, javascript ES6 prototype game
 * Javascript module (how to hide/encapsulate behavior/variables)
 * Rendering (how to render isometric grid and calculate coordinates correctly)
 * Game loop
-* [Tactical source code][tactical-source-code]
+* [Tactical source code][tactical-code-url]
 * [Tactical][tactical-url]
 
 [tactical-url]: https://seixasfelipe.github.io/tactical/
