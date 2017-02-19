@@ -1,3 +1,9 @@
+---
+layout: post
+title:  ".NET Core on MacOS"
+date:   2017-02-18 23:02:08 -0400
+categories: programming dotnet 
+---
 Getting started, from official web site https://www.microsoft.com/net/core#macos
 
 - Install openssl
@@ -20,14 +26,20 @@ By the time of this writing, the lastest was https://github.com/dotnet/core/blob
 npm install -g yo generator-aspnet@0.3.1
 yo aspnet
 ```
+Follow steps of yeoman aspnet generator
 
 ```
 cd webapp
 dotnet restore
 dotnet build
+dotnet run
 ```
 if you see an error message like:
 warn : The folder '<path>/projFolder' does not contain a project to restore.
 This happens maybe because you don't have a dotnet sdk version that can read .csproj files (until Preview 2.1 it searches for project.json file)
+ref: http://stackoverflow.com/questions/42011846/new-dotnet-core-project-cannot-restore?answertab=active#tab-top
 
 
+
+Tutorials
+- Your first mac aspnet core applicaton (https://docs.microsoft.com/en-us/aspnet/core/tutorials/your-first-mac-aspnet)
