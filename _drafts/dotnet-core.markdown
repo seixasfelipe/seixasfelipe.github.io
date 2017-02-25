@@ -43,3 +43,10 @@ ref: http://stackoverflow.com/questions/42011846/new-dotnet-core-project-cannot-
 
 Tutorials
 - Your first mac aspnet core applicaton (https://docs.microsoft.com/en-us/aspnet/core/tutorials/your-first-mac-aspnet)
+
+
+
+If you want to migrate from DNX to .NET Core CLI
+- Explain what .NET Core CLI is.
+- Explain diff between DNX and .NET Core CLI.
+ref: https://docs.microsoft.com/en-us/dotnet/articles/core/migrating-from-dnx
