@@ -50,3 +50,6 @@ If you want to migrate from DNX to .NET Core CLI
 - Explain what .NET Core CLI is.
 - Explain diff between DNX and .NET Core CLI.
 ref: https://docs.microsoft.com/en-us/dotnet/articles/core/migrating-from-dnx
+
+In my case, my project uses RC1 and many things has changed once RC2 was released (e.g. EntityFramework 7 was renamed to EntityFramework Core).
+ref: https://docs.microsoft.com/en-us/ef/core/miscellaneous/rc1-rc2-upgrade
