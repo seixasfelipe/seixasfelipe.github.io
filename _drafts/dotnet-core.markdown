@@ -53,3 +53,6 @@ ref: https://docs.microsoft.com/en-us/dotnet/articles/core/migrating-from-dnx
 
 In my case, my project uses RC1 and many things has changed once RC2 was released (e.g. EntityFramework 7 was renamed to EntityFramework Core).
 ref: https://docs.microsoft.com/en-us/ef/core/miscellaneous/rc1-rc2-upgrade
+
+Problem with System.Net.Mail namespace. It was ported to .NET Core 
+https://github.com/dotnet/corefx/tree/master/src/System.Net.Mail
