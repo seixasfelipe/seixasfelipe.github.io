@@ -39,7 +39,10 @@ warn : The folder '<path>/projFolder' does not contain a project to restore.
 This happens maybe because you don't have a dotnet sdk version that can read .csproj files (until Preview 2.1 it searches for project.json file)
 ref: http://stackoverflow.com/questions/42011846/new-dotnet-core-project-cannot-restore?answertab=active#tab-top
 
-
+On MacOS, the dotnet sdk is installed in:
+```
+$ l /usr/local/share/dotnet/sdk/
+```
 
 Tutorials
 - Your first mac aspnet core applicaton (https://docs.microsoft.com/en-us/aspnet/core/tutorials/your-first-mac-aspnet)
