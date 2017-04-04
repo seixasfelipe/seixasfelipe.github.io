@@ -60,5 +60,14 @@ ref: https://docs.microsoft.com/en-us/ef/core/miscellaneous/rc1-rc2-upgrade
 Explain differences between .NET Core versions.
 ref: http://blog.tpcware.com/2016/12/multiple-versions-of-net-core-runtimes-and-sdk-tools-sxs-survive-guide/
 
-Problem with System.Net.Mail namespace. It was ported to .NET Core 
+Explain the project.json file format
+https://github.com/aspnet/Announcements/issues/175
+https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json-to-csproj
+
+Problem with System.Net.Mail namespace. It was ported to .NET Core but not yet released.
 https://github.com/dotnet/corefx/tree/master/src/System.Net.Mail
+You can use MailKit instead:
+https://github.com/jstedfast/MailKit
+
+- Some lessons learned migrating to .NET Core
+https://stackify.com/15-lessons-learned-while-converting-from-asp-net-to-net-core/
